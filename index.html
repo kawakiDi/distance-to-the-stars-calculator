@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>distance to the stars calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="calculator">
+    <div class="calculator__main">
+      <div class="calculator__buttons">
+        <button class="calculator__button" type="button">info</button>
+        <button class="calculator__button" type="button">objeсts</button>
+        <button class="calculator__button" type="button">clear</button>
+      </div>
+      <div class="calculator__sections">
+        <div class="calculator__section">
+          <input id="light-year" class="calculator__input" type="number" value="2537000">
+          <p>light year</p>
+        </div>
+        <div class="calculator__section">
+          <input id="parsecs" class="calculator__input" type="number" value="777846.737">
+          <p>parsecs</p>
+        </div>
+      </div>
+    </div>
+    <div class="calculator__info" hidden><p>1 пк =<img src="./images/f69fcc913d895bee04b0e6193a98e1bd1e8cc251.svg" alt="">а. е. ≈ <img src="./images/32d49dacc0aef8859828aba2437c586d40cee28f.svg" alt="">а. е. ≈ 206 264,8 а.е. = 3,0856776⋅1016 м = 30,8568 трлн км (петаметров) = 3,2616 светового года.</p></div>
+    <div class="wrapper" hidden>
+      <div class="calculator__objects">
+        <button type="button">Галактика Треугольника<span class="visually-hidden">2723000</span></button>
+        <button type="button">Туманность Ориона<span class="visually-hidden">1344</span></button>
+        <button type="button">Большое Магелланово Облако<span class="visually-hidden">158200</span></button>
+        <button type="button">Галактика Андромеды<span class="visually-hidden">2537000</span></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
